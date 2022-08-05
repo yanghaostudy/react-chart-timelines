@@ -1,7 +1,7 @@
 {
-  "name": "react-timelines",
-  "version": "2.7.2",
-  "description": "React Timelines",
+  "name": "react-chart-timelines",
+  "version": "2.7.6",
+  "description": "React Chart TimeLines",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib coverage",
@@ -36,8 +36,8 @@
     "tracks",
     "time"
   ],
-  "repository": "git@github.com:JSainsburyPLC/react-timelines.git",
-  "author": "JSainsburyPLC",
+  "repository": "git@github.com:JSainsburyPLC/react-chart-timelines.git",
+  "author": "yhnode",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.7.2"

@@ -6,7 +6,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "react-timelines": "^2.6.1"
+    "react-chart-timelines": "^2.7.3"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,21 +1,21 @@
 # React Timelines
 
-[**Demo**](https://jsainsburyplc.github.io/react-timelines/)
+[**Demo**](https://jsainsburyplc.github.io/react-chart-timelines/)
 
 ## Install
 
 ```sh
 # with npm
-npm install react-timelines
+npm install react-chart-timelines
 
 # or with Yarn
-yarn add react-timelines
+yarn add react-chart-timelines
 ```
 
 ## Use
 
 ```js
-import Timeline from 'react-timelines'
+import Timeline from 'react-chart-timelines'
 
 const MyWidget = () => <Timeline {...props} />
 
@@ -29,7 +29,7 @@ export default MyWidget
 Using Webpack with CSS loader, add the following:
 
 ```js
-import 'react-timelines/lib/css/style.css'
+import 'react-chart-timelines/lib/css/style.css'
 ```
 
 ### Using Sass (SCSS)
@@ -37,15 +37,15 @@ import 'react-timelines/lib/css/style.css'
 Using Sass you can configure the timeline with variables:
 
 ```scss
-$react-timelines-font-family: MaryAnn;
-$react-timelines-sidebar-width: 320px;
+$react-chart-timelines-font-family: MaryAnn;
+$react-chart-timelines-sidebar-width: 320px;
 
-@import '~/react-timelines/src/scss/style';
+@import '~/react-chart-timelines/src/scss/style';
 ```
 
 ### Without build tools
 
-Create a CSS file with the contents of `react-timelines/lib/css/style.css` and include it in `<head>`
+Create a CSS file with the contents of `react-chart-timelines/lib/css/style.css` and include it in `<head>`
 
 ## Development
 
