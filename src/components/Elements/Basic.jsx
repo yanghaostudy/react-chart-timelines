@@ -16,7 +16,6 @@ const Basic = ({ title, start, end, style, classes, dataSet, tooltip }) => (
     <div className="rt-element__content" aria-hidden="true">
       <span className="rt-element__title">{title}</span>
     </div>
-    
       {tooltip && (
         // eslint-disable-next-line react/no-danger
         <div className="rt-element__tooltip">
