@@ -6,7 +6,6 @@ import Layout from './components/Layout'
 import createTime from './utils/time'
 
 const UNKNOWN_WIDTH = -1
-
 class Timeline extends Component {
   constructor(props) {
     super(props)

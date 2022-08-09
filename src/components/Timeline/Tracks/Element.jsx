@@ -40,7 +40,7 @@ Element.propTypes = {
   title: PropTypes.string,
   start: PropTypes.instanceOf(Date).isRequired,
   end: PropTypes.instanceOf(Date).isRequired,
-  tooltip: PropTypes.string,
+  tooltip: PropTypes.node,
   clickElement: PropTypes.func,
 }
 
