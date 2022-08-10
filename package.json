@@ -1,6 +1,6 @@
 {
   "name": "react-chart-timelines",
-  "version": "2.7.6",
+  "version": "2.7.8",
   "description": "React Chart TimeLines",
   "main": "lib/index.js",
   "scripts": {

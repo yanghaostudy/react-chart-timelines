@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { getDayMonth } from '../../utils/formatDate'
+// import { getDayMonth } from '../../utils/formatDate'
 import createClasses from '../../utils/classes'
 
 const buildDataAttributes = (attributes = {}) => {
@@ -11,7 +11,7 @@ const buildDataAttributes = (attributes = {}) => {
   return value
 }
 
-const Basic = ({ title, start, end, style, classes, dataSet, tooltip }) => (
+const Basic = ({ title, style, classes, dataSet, tooltip }) => (
   <div className={createClasses('rt-element', classes)} style={style} {...buildDataAttributes(dataSet)}>
     <div className="rt-element__content" aria-hidden="true">
       <span className="rt-element__title">{title}</span>
@@ -27,9 +27,9 @@ const Basic = ({ title, start, end, style, classes, dataSet, tooltip }) => (
 )
 
 Basic.propTypes = {
-  title: PropTypes.string.isRequired,
-  start: PropTypes.instanceOf(Date).isRequired,
-  end: PropTypes.instanceOf(Date).isRequired,
+  title: PropTypes.node,
+  // start: PropTypes.instanceOf(Date).isRequired,
+  // end: PropTypes.instanceOf(Date).isRequired,
   style: PropTypes.shape({}),
   classes: PropTypes.arrayOf(PropTypes.string.isRequired),
   dataSet: PropTypes.shape({}),
