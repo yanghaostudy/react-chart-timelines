@@ -1,4 +1,4 @@
-# React Timelines
+# React Chart Timelines
 
 [**Demo**](https://yanghaostudy.github.io/react-chart-timelines/)
 
