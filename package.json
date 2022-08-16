@@ -1,6 +1,6 @@
 {
   "name": "react-chart-timelines",
-  "version": "2.7.8",
+  "version": "2.7.9",
   "description": "React Chart TimeLines",
   "main": "lib/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "tracks",
     "time"
   ],
-  "repository": "git@github.com:JSainsburyPLC/react-chart-timelines.git",
+  "repository": "git@github.com:yanghaostudy/react-timelines.git",
   "author": "yhnode",
   "license": "MIT",
   "dependencies": {
