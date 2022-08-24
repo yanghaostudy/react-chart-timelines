@@ -1,6 +1,6 @@
 # React Timelines
 
-[**Demo**](https://yanghaostudy.github.io/react-chart-timelines/)
+[**Demo**](https://jsainsburyplc.github.io/react-timelines/)
 
 ## Install
 
